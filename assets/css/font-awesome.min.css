@@ -23,7 +23,7 @@
 }
 
 @font-face {
-    font-family: 'Proxima Nova Lt1';
+    font-family: 'Proxima Nova Sb';
     src: url('ProximaNova-Semibold.eot');
     src: url('ProximaNova-Semibold.eot?#iefix') format('embedded-opentype'),
         url('ProximaNova-Semibold.woff2') format('woff2'),
@@ -55,7 +55,7 @@
 }
 
 @font-face {
-	font-family: 'Proxima Nova Cn sLt';
+	font-family: 'Proxima Nova Cn Sb';
 	src: url('../fonts/ProximaNovaCond-Semibold.eot');
 	src: url('../fonts/ProximaNovaCond-Semibold.eot?#iefix') format('embedded-opentype'),
 		url('../fonts/ProximaNovaCond-Semibold.woff') format('woff'),
@@ -77,7 +77,7 @@
 }
 
 @font-face {
-    font-family: 'Proxima Nova ScOsf Lt';
+    font-family: 'Proxima Nova ScOsf Sb';
     src: url('ProximaNovaS-Semibold.eot');
     src: url('ProximaNovaS-Semibold.eot?#iefix') format('embedded-opentype'),
         url('ProximaNovaS-Semibold.woff2') format('woff2'),
@@ -89,7 +89,7 @@
 }
 
 @font-face {
-    font-family: 'Proxima Nova ScOsf Th';
+    font-family: 'Proxima Nova ScOsf ExtBld';
     src: url('ProximaNovaS-Extrabld.eot');
     src: url('ProximaNovaS-Extrabld.eot?#iefix') format('embedded-opentype'),
         url('ProximaNovaS-Extrabld.woff2') format('woff2'),
@@ -101,7 +101,7 @@
 }
 
 @font-face {
-    font-family: 'Proxima Nova ScOsf Rg1';
+    font-family: 'Proxima Nova ScOsf Bld';
     src: url('ProximaNovaS-Bold.eot');
     src: url('ProximaNovaS-Bold.eot?#iefix') format('embedded-opentype'),
         url('ProximaNovaS-Bold.woff2') format('woff2'),

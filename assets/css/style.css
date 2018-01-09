@@ -2282,8 +2282,8 @@ header.transparent.fixed-top .navbar.white #menu .menu-holder ul:not(.sub-menu) 
 }
 
 header.transparent.fixed-top .navbar.white #menu .menu-holder ul:not(.sub-menu) > li > a.active-item, header.transparent.fixed-top .navbar.white #sidemenu .menu-holder ul:not(.sub-menu) > li > a.active-item, header.transparent.fixed-top .navbar.white #menu-classic .menu-holder ul:not(.sub-menu) > li > a.active-item {
-  color: #323232;
-  font-weight: 400;
+  color: #C19B76;
+  font-weight: 500;
 }
 
 header.transparent.fixed-top .navbar.white #menu .menu-holder ul:not(.sub-menu) > li.search, header.transparent.fixed-top .navbar.white #sidemenu .menu-holder ul:not(.sub-menu) > li.search, header.transparent.fixed-top .navbar.white #menu-classic .menu-holder ul:not(.sub-menu) > li.search {
@@ -2291,11 +2291,11 @@ header.transparent.fixed-top .navbar.white #menu .menu-holder ul:not(.sub-menu) 
 }
 
 header.transparent.fixed-top .navbar.white #menu .menu-holder ul:not(.sub-menu) > li.lang span.current a, header.transparent.fixed-top .navbar.white #sidemenu .menu-holder ul:not(.sub-menu) > li.lang span.current a, header.transparent.fixed-top .navbar.white #menu-classic .menu-holder ul:not(.sub-menu) > li.lang span.current a {
-  color: #323232;
+  color: #C19B76;
 }
 
 header.transparent.fixed-top .navbar.white #menu .menu-holder ul:not(.sub-menu) > li.lang:hover ul li a, header.transparent.fixed-top .navbar.white #sidemenu .menu-holder ul:not(.sub-menu) > li.lang:hover ul li a, header.transparent.fixed-top .navbar.white #menu-classic .menu-holder ul:not(.sub-menu) > li.lang:hover ul li a {
-  color: white;
+  color: #323232;
 }
 
 header.transparent.fixed-top .navbar.white #menu .menu-holder ul.mega-sub-menu li a, header.transparent.fixed-top .navbar.white #sidemenu .menu-holder ul.mega-sub-menu li a, header.transparent.fixed-top .navbar.white #menu-classic .menu-holder ul.mega-sub-menu li a {
@@ -2436,7 +2436,7 @@ header nav.navbar #menu .menu-holder ul li a, header nav.navbar #sidemenu .menu-
   margin-left: 30px;
   font-size: 14px;
   line-height: 24px;
-  font-family: "Proxima Nova Lt1", sans-serif;
+  font-family: "Proxima Nova Sb", sans-serif;
   font-weight: 100;
   text-transform: uppercase;
   color: #323232;
@@ -2451,7 +2451,7 @@ header nav.navbar #menu .menu-holder ul li a, header nav.navbar #sidemenu .menu-
 }
 
 header nav.navbar #menu .menu-holder ul li a:hover, header nav.navbar #sidemenu .menu-holder ul li a:hover, header nav.navbar #menu-classic .menu-holder ul li a:hover {
-  color: #323232 !important;
+  color: #C19B76 !important;
 }
 
 header nav.navbar #menu .menu-holder ul li a.active, header nav.navbar #menu .menu-holder ul li a.active-item, header nav.navbar #sidemenu .menu-holder ul li a.active, header nav.navbar #sidemenu .menu-holder ul li a.active-item, header nav.navbar #menu-classic .menu-holder ul li a.active, header nav.navbar #menu-classic .menu-holder ul li a.active-item {
@@ -2509,7 +2509,7 @@ header nav.navbar #menu .menu-holder ul li.submenu ul.sub-menu li a, header nav.
 }
 
 header nav.navbar #menu .menu-holder ul li.submenu ul.sub-menu li a:hover, header nav.navbar #sidemenu .menu-holder ul li.submenu ul.sub-menu li a:hover, header nav.navbar #menu-classic .menu-holder ul li.submenu ul.sub-menu li a:hover {
-  color: black !important;
+  color: #c19b76 !important;
 }
 
 @media screen and (min-width: 991px) {
@@ -2569,7 +2569,7 @@ header nav.navbar #menu .menu-holder ul li.submenu ul.sub-menu.mega-sub-menu li 
   font-size: 14px;
   line-height: 30px;
   text-transform: none;
-  font-family: "Proxima Nova Lt", serif;
+  font-family: "Proxima Nova Sb", serif;
   transition: padding-left .4s ease;
 }
 
@@ -2650,7 +2650,7 @@ header nav.navbar #menu .menu-holder ul li.lang span, header nav.navbar #sidemen
 }
 
 header nav.navbar #menu .menu-holder ul li.lang span.current a, header nav.navbar #sidemenu .menu-holder ul li.lang span.current a, header nav.navbar #menu-classic .menu-holder ul li.lang span.current a {
-  font-family: "Proxima Nova Lt", serif;
+  font-family: "Proxima Nova Lt", serif ;
   text-transform: uppercase;
   font-size: 14px;
   letter-spacing: 2px;
@@ -2687,15 +2687,15 @@ header nav.navbar #menu .menu-holder ul li.lang ul, header nav.navbar #sidemenu 
 
 @media screen and (max-width: 991px) {
   header nav.navbar #menu .menu-holder ul li.lang ul, header nav.navbar #sidemenu .menu-holder ul li.lang ul, header nav.navbar #menu-classic .menu-holder ul li.lang ul {
-    visibility: visible;
+    visibility: hidden;
     position: relative;
     top: inherit;
-    opacity: 1;
+    opacity: 0;
     right: inherit;
     width: auto;
-    text-align: left;
+    text-align: center;
     background-color: transparent;
-    display: inline-block;
+    display: inline;
     padding: 0;
   }
 }
@@ -2834,10 +2834,9 @@ header nav.navbar #menu .menu-holder button.close-menu, header nav.navbar #sidem
   }
   header nav.navbar #menu.open .menu-holder ul li.submenu ul.sub-menu li a, header nav.navbar #sidemenu.open .menu-holder ul li.submenu ul.sub-menu li a, header nav.navbar #menu-classic.open .menu-holder ul li.submenu ul.sub-menu li a {
     color: #C19B76;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 22px;
-    text-transform: uppercase;
-    font-family: "Playfair Display", serif;
+    font-family: "Proxima Nova Lt", serif;
   }
 }
 
@@ -2922,10 +2921,10 @@ header nav.navbar #menu .menu-holder button.close-menu, header nav.navbar #sidem
     margin: 0 0 0 16px;
   }
   header nav.navbar #menu.sidemenu .menu-holder ul li.submenu ul.sub-menu li a, header nav.navbar #sidemenu.sidemenu .menu-holder ul li.submenu ul.sub-menu li a, header nav.navbar #menu-classic.sidemenu .menu-holder ul li.submenu ul.sub-menu li a {
-    color: black;
+    color: #323232;
   }
   header nav.navbar #menu.sidemenu .menu-holder ul li.submenu ul.sub-menu li a:hover, header nav.navbar #sidemenu.sidemenu .menu-holder ul li.submenu ul.sub-menu li a:hover, header nav.navbar #menu-classic.sidemenu .menu-holder ul li.submenu ul.sub-menu li a:hover {
-    color: #323232 !important;
+    color: #C19B76 !important;
   }
 }
 
@@ -3031,7 +3030,7 @@ header nav.navbar #menu.minimal.open .menu-holder ul li.submenu ul.sub-menu li a
   font-size: 16px;
   line-height: 24px;
   text-transform: uppercase;
-  font-family: "Playfair Display", serif;
+  font-family: "Proxima Nova Sb", serif;
   font-weight: 300;
 }
 
@@ -3061,7 +3060,7 @@ header nav.navbar #menu.minimal.open .menu-holder ul li.lang span, header nav.na
 }
 
 header nav.navbar #menu.minimal.open .menu-holder ul li.lang span.current a, header nav.navbar #sidemenu.minimal.open .menu-holder ul li.lang span.current a, header nav.navbar #menu-classic.minimal.open .menu-holder ul li.lang span.current a {
-  font-family: "Playfair Display", serif;
+  font-family: "Proxima Nova Sb", serif;
   text-transform: uppercase;
   font-size: 14px;
   letter-spacing: 2px;
@@ -3088,7 +3087,7 @@ header nav.navbar #menu.minimal.open .menu-holder ul li.lang ul, header nav.navb
 
 header nav.navbar #menu.minimal.open .menu-holder ul li.lang ul li a, header nav.navbar #sidemenu.minimal.open .menu-holder ul li.lang ul li a, header nav.navbar #menu-classic.minimal.open .menu-holder ul li.lang ul li a {
   margin-left: 0;
-  font-family: "Playfair Display", serif;
+  font-family: "Proxima Nova Sb", serif;
   text-transform: uppercase;
   font-size: 14px;
   letter-spacing: 2px;
@@ -3098,7 +3097,7 @@ header nav.navbar #menu.minimal.open .menu-holder ul li.lang ul li a, header nav
 header nav.navbar #menu.minimal.open .menu-holder ul a, header nav.navbar #sidemenu.minimal.open .menu-holder ul a, header nav.navbar #menu-classic.minimal.open .menu-holder ul a {
   font-size: 20px;
   line-height: 30px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Proxima Nova Sb", sans-serif;
   color: white;
   margin-left: 0;
 }
@@ -3365,21 +3364,22 @@ header nav.navbar.white #logo img:not(.white-logo) {
 
 header nav.navbar.white #menu .menu-holder ul li > a, header nav.navbar.white #sidemenu .menu-holder ul li > a, header nav.navbar.white #menu-classic .menu-holder ul li > a {
   color: white;
-  font-weight: 100;
+  font-weight: 500;
 }
 
 header nav.navbar.white #menu .menu-holder ul li > a.active-item, header nav.navbar.white #sidemenu .menu-holder ul li > a.active-item, header nav.navbar.white #menu-classic .menu-holder ul li > a.active-item {
   color: #C19B76;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 header nav.navbar.white #menu .menu-holder ul li.lang span.current a, header nav.navbar.white #sidemenu .menu-holder ul li.lang span.current a, header nav.navbar.white #menu-classic .menu-holder ul li.lang span.current a {
-  color: white;
+  color: #C19B76;
+  font-weight: 500;
 }
 
 @media screen and (max-width: 991px) {
   header nav.navbar.white #menu .menu-holder ul li.lang span.current a, header nav.navbar.white #sidemenu .menu-holder ul li.lang span.current a, header nav.navbar.white #menu-classic .menu-holder ul li.lang span.current a {
-    color: #323232;
+    color: white;
   }
 }
 
@@ -3398,15 +3398,15 @@ header nav.navbar.white #sidemenu.open .menu-holder ul li {
 
 header nav.navbar.white #sidemenu.open .menu-holder ul li > a {
   color: white;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Proxima Nova Sb", sans-serif;
   font-size: 14px;
   line-height: 26px;
-  font-weight: 100;
+  font-weight: 500;
 }
 
 header nav.navbar.white #sidemenu.open .menu-holder ul li > a.active-item {
-  color: #323232;
-  font-weight: 400;
+  color: white;
+  font-weight: 700;
 }
 
 header nav.navbar.white #menu-responsive .menu-button .bar, header nav.navbar.white #menu-responsive-sidemenu .menu-button .bar, header nav.navbar.white #menu-responsive-classic .menu-button .bar {
