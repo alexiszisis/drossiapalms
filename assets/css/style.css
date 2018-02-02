@@ -6,7 +6,7 @@
 2.General
 3.Main Settings
 4.Main Navigation ----2220
-5.FullPage
+5.FullPage ----3421
 6.Main content ----3557
 7.Blog Page ----5756
 8.Navigation ----6074
@@ -596,10 +596,10 @@ a.btn-alt i {
 }
 
 a.btn-pro {
-  font-size: 16px;
-  line-height: 16px;
+  font-size: 18px;
+  line-height: 18px;
   color: #C19B76;
-  font-weight: 400;
+  font-weight: 600;
   text-decoration: none;
   position: relative;
   text-transform: uppercase;
@@ -682,9 +682,9 @@ a#open-filters:hover {
 }
 
 p {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Proxima Nova Lt", sans-serif;
   color: #85858A;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 24px;
   margin-bottom: 16px;
   letter-spacing: 0.5px;
@@ -693,7 +693,7 @@ p {
 
 p.heading {
   color: #85858A;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Proxima Nova Lt", sans-serif;
   font-size: 18px;
   line-height: 28px;
   max-width: 600px;
@@ -5739,7 +5739,7 @@ header nav.navbar.white #search-box .form-input i {
 }
 
 #page-content #rooms .room.light {
-  background-color: #F5F5F5;
+  background-color: #FFFFFF;
 }
 
 #page-content #rooms .room.light h3 {
@@ -5747,11 +5747,11 @@ header nav.navbar.white #search-box .form-input i {
 }
 
 #page-content #rooms .room:hover {
-  box-shadow: 0 6px 30px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 6px 30px 0 rgba(0, 0, 0, 0.0);
 }
 
 #page-content #rooms .room:hover .image:after {
-  opacity: 1;
+  opacity: 0;
   transition: opacity .4s ease;
 }
 
