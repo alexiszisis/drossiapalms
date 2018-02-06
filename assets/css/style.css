@@ -5689,6 +5689,7 @@ header nav.navbar.white #search-box .form-input i {
   padding: 36px;
   position: relative;
   min-height: 222px;
+  border: 2px solid hsla(20, 1%, 39%, 0.7);
 }
 
 #page-content #rooms .room .content a.btn-alt {
