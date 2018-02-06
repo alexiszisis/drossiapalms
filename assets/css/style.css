@@ -310,6 +310,15 @@ h3.small strong, h3.small b {
   font-weight: 400;
 }
 
+h4f {
+font-size: 18px;
+line-height: 18px;
+color: #C19B76;
+font-weight: 600;
+text-decoration: none;
+text-transform: uppercase;
+}
+
 h4 {
   font-size: 18px;
 }
@@ -7828,7 +7837,7 @@ footer, .footer {
 }
 
 footer .pre-footer, .footer .pre-footer {
-  margin-bottom: 32px;
+  margin-bottom: 62px;
 }
 
 @media screen and (max-width: 991px) {
@@ -7865,7 +7874,7 @@ footer.fixed, .footer.fixed {
   padding-right: 50px;
   z-index: 1;
   height: 278px;
-  border-top: 4px solid hsla(20, 1%, 39%, 0.2);
+  border-top: 4px solid hsla(20, 1%, 39%, 0.7);
 }
 
 footer.fixed.fullpage, .footer.fixed.fullpage {
@@ -7926,6 +7935,7 @@ footer .copy, .footer .copy {
   font-weight: 300;
   position: relative;
   background-color: white;
+  border-top: 2px solid hsla(20, 1%, 39%, 0.2);
 }
 
 footer .copy img, .footer .copy img {
@@ -9028,8 +9038,9 @@ em.number {
   padding: 11px 50px 11px 9px;
   font-family: "Proxima Nova Lt", serif;
   font-size: 14px;
-  background-color: whitesmoke;
+  background-color: white;
   color: #323232;
+  border-bottom: 1px solid hsla(20, 1%, 39%, 0.2);
 }
 
 @media screen and (max-width: 991px) {
