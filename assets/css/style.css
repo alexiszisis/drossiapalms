@@ -3844,7 +3844,7 @@ header nav.navbar.white #search-box .form-input i {
 }
 
 #page-content #flexslider.small .gallery-button a, #page-content #flexslider-nav.small .gallery-button a {
-  font-size: 14px;
+  font-size: 24px;
   color: white;
   font-weight: 400;
   position: relative;
@@ -3857,7 +3857,7 @@ header nav.navbar.white #search-box .form-input i {
   position: absolute;
   right: 0;
   top: -4px;
-  font-size: 24px;
+  font-size: 34px;
   transition: -webkit-transform .4s linear;
   transition: transform .4s linear;
   transition: transform .4s linear, -webkit-transform .4s linear;
