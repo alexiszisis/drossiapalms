@@ -9055,25 +9055,25 @@ em.number {
 }
 
 #newsletter-form form .form-input ::-webkit-input-placeholder {
-  font-family: "Playfair Display", serif;
+  font-family: "Proxima Nova Lt", serif;
   color: #d1d2d3;
   font-size: 14px;
 }
 
 #newsletter-form form .form-input :-moz-placeholder {
-  font-family: "Playfair Display", serif;
+  font-family: "Proxima Nova Lt", serif;
   color: #d1d2d3;
   font-size: 14px;
 }
 
 #newsletter-form form .form-input ::-moz-placeholder {
-  font-family: "Playfair Display", serif;
+  font-family: "Proxima Nova Lt", serif;
   color: #d1d2d3;
   font-size: 14px;
 }
 
 #newsletter-form form .form-input :-ms-input-placeholder {
-  font-family: "Playfair Display", serif;
+  font-family: "Proxima Nova Lt", serif;
   color: #d1d2d3;
   font-size: 14px;
 }
