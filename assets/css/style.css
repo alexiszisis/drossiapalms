@@ -9325,13 +9325,13 @@ em.number {
 /* =  16.Magnific popup
 /*-------------------------------------------------*/
 button.mfp-close {
-  background-color: #C19B76 !important;
+  background-color: grey !important;
   color: white;
   transition: background-color .4s ease;
 }
 
 button.mfp-close:hover {
-  background-color: #1c1c1c !important;
+  background-color: #c19b76 !important;
   transition: background-color .4s ease;
 }
 
